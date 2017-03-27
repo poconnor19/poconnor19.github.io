@@ -1,0 +1,248 @@
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+	color: #255;
+}
+
+.whitetext {
+	color: #ffffff;   
+}
+
+#layout {
+	width: 90%;
+	max-width: 1100px;
+	background: #f3f3f3;
+	margin: 60px auto;
+    padding-bottom:45px;
+}
+
+.mainDetails {
+	padding: 35px 90px;
+    background-color:#000000;
+}
+
+.iconsize {
+
+    width: 5%;
+    height: 5%;
+
+ }
+
+#name h1 {
+	font-size: 1.7em;
+	font-weight: 600;
+	font-family: "Times New Roman", Georgia, Serif;
+	margin-bottom: 2px;
+    text-align: center;
+}
+
+#name h3 {
+	font-size: 1.2em;
+	margin-left: 2px;
+	font-family: "Times New Roman", Georgia, Serif;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+#mainArea {
+	padding: 0 25px;
+}
+
+#photo {
+    float:inherit;
+	width: 12.5%;
+    margin: auto;
+}
+
+#photo img {
+	width: 100%;
+	height: auto;
+	border-radius: 50px;
+}
+
+.align {
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.skills li {
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+	color: #255;
+ }
+
+
+section{
+	
+	padding: 20px 0 0;
+}
+
+.sectionwb {
+	border-top: 1px solid;
+	padding: 20px 0 0;
+}
+
+.sectionTitle {
+    
+    
+	float: left;
+	width: 20%;
+}
+
+.sectionContent {
+	float: right;
+	width: 75%;
+    color:#000000;
+} 
+
+.sectionLeft {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: italic;
+	font-size: 1.3em;
+	color: #4d7556;
+    float: left;
+	width: 20%;
+}
+
+.description {
+	font-size: .8em;
+	font-style: italic;
+	margin-bottom: 3px;
+    
+}
+
+.FamilyPrintLeft {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: italic;
+	font-size: .8em;
+	color: #4d7556;
+    float: left;
+    text-align-last:justify
+    
+}
+
+
+.box {
+
+    width:auto;
+    background: #4d7556;
+    margin:auto;
+}
+
+
+.centered {
+
+    text-align:center;
+    
+ }
+ 
+.centeredpics {
+
+    
+    width:40%;
+    height:40%;  
+    
+ }
+ 
+.blacktext {
+
+color:#000000;
+  
+   }
+
+.fordham{
+
+color:#830032;
+
+ }
+ 
+
+.icons {
+
+width=5%;
+height=5%; 
+margin: 0 30px;
+
+ }
+ 
+ 
+@media print {
+body { background:white; color:black; margin:0; }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	#layout {
+	width: 90%;
+	max-width: 900px;
+	background: #f3f3f3;
+	margin: 60px auto;
+    padding-bottom:45px;
+}
+    
+    .icons {
+
+        width=1%;
+        height=1%; 
+
+
+ }
+    
+}
+
+
+@media only screen and (min-width: 1020px) {
+
+
+	#layout {
+	width: 90%;
+	max-width: 1020px;
+	background: #f3f3f3;
+	margin: 60px auto;
+    padding-bottom:30px;
+}
+    
+    .icons {
+
+        width=2%;
+        height=2%; 
+
+
+ }
+    
+
+
+p {
+	font-size: 1em;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+	color: #255;
+}
+
+
+.sectionContent {
+	float: right;
+	width: 70%;
+    color:#000000;
+} 
+
+.sectionLeft {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: italic;
+	font-size: 1.3em;
+	color: #4d7556;
+    float: left;
+	width: 10%;
+}
+
+
+
+}
